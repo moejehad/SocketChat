@@ -44,7 +44,7 @@ io.set('origins', '*:*');
 
 4. Run the server from cmd
 ```
-run start
+npm start
 ```
 
 5. To Know your IP address run this in the cmd 
