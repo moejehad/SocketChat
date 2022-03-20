@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/backgroundColor"
+    tools:context=".ui.createGroup.CreateGroupFragment">
+
+    <View
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/createGroup"
+        android:fontFamily="@font/readex_semibold"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@color/gray"
+        app:layout_constraintTop_toTopOf="@+id/titleView"
+        app:layout_constraintStart_toStartOf="@+id/titleView"
+        app:layout_constraintEnd_toEndOf="@+id/titleView"
+        app:layout_constraintBottom_toBottomOf="@+id/titleView"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcDataUser"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintTop_toBottomOf="@+id/titleView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/backIcon"
+        android:layout_width="@dimen/_15sdp"
+        android:layout_height="@dimen/_15sdp"
+        app:layout_constraintStart_toStartOf="@+id/titleView"
+        app:layout_constraintTop_toTopOf="@+id/titleView"
+        app:layout_constraintBottom_toBottomOf="@+id/titleView"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:src="@drawable/ic_right_arrow" />
+
+    <EditText
+        android:id="@+id/txtNameGroup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Group Name"
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/input_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_30sdp"/>
+
+    <Button
+        android:id="@+id/btnAddGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_45sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtNameGroup"
+        app:layout_constraintEnd_toEndOf="@+id/txtNameGroup"
+        app:layout_constraintTop_toTopOf="@+id/txtNameGroup"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/readex_medium"
+        android:textSize="@dimen/_11ssp"
+        android:background="@drawable/btn_background"
+        android:textAllCaps="false"
+        android:text="Create" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

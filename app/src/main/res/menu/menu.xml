@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/usersTab"
+        android:title="Users"
+        android:icon="@drawable/ic_chat"/>
+
+    <item
+        android:id="@+id/groupsTab"
+        android:title="Groups"
+        android:icon="@drawable/ic_group"/>
+
+</menu>

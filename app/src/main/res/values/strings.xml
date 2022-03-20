@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Chat Me</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loginTitle">Login</string>
+    <string name="passwordLogin">Password</string>
+    <string name="emailAddress">Email Address</string>
+    <string name="dontHaveText">Don\'t have an account ?</string>
+    <string name="registerText"> Register</string>
+    <string name="createAccountText">Create Account</string>
+    <string name="personName">Name</string>
+    <string name="haveAccount">have an account ?</string>
+    <string name="HomeText">Home</string>
+    <string name="user">Moe Jehad</string>
+    <string name="msg">hi moe !</string>
+    <string name="chatTitle">Chat</string>
+    <string name="Message">Message</string>
+    <string name="createGroup">Create Group</string>
+    <string name="list">List</string>
+    <string name="profileBtnText">Profile</string>
+    <string name="LogoutBtnText">Logout</string>
+    <string name="Group">Group Name</string>
+    <string name="usersNumber">+5 Users</string>
+</resources>
