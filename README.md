@@ -10,6 +10,8 @@ simple chat app using socket.io and Android. Created in 12-5-2021
 * Navigation Componenet
 * Kotlin
 * Node Js
+* Gson
+* ssp && sdp
 
 1.installing the Socket.IO Dependencies to build.gradle:
 
